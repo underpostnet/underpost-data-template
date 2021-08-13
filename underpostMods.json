@@ -1,0 +1,15 @@
+{
+  "server": [
+    "eval/console.js",
+    "eval/base.js",
+    "eval/session.js",
+    "eval/header.js",
+    "eval/JsCssModRender.js",
+    "eval/crypto.js",
+    "eval/keys.js"
+  ],
+  "client": [
+    "eval/baseRender.js",
+    "eval/JsCssModRender.js"
+  ]
+}

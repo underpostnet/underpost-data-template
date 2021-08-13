@@ -1,0 +1,69 @@
+{
+  "http_port": null,
+  "dir":"ltr",
+  "underpostClientPath": null,
+  "underpostServerPath": null,
+  "serverPath": null,
+  "clientPath": null,
+  "staticPath": null,
+  "dataPath": null,
+  "url":"https://underpost.net",
+  "http_host_dev":"localhost",
+  "color":"black",
+  "static":["fonts","img"],
+  "favicon":{"url":"/img/favicon.ico","type":"image/x-icon"},
+  "fonts":[{"name":"retro-font","url":"/fonts/PressStart2P.ttf", "type":"truetype"}],
+  "secret_session":"underpost-network-session",
+  "network_user": {
+    "username": null,
+    "email": null,
+    "web": null,
+    "bio": "underpost.net user",
+    "ip": null
+  },
+  "keys": {
+    "key_pass": null,
+    "current_key": null
+  },
+  "db":{
+    "username":null,
+    "password":null,
+    "host":null,
+    "port":null,
+    "database":null,
+    "key":null,
+    "iv":null
+  },
+  "path":[
+    {
+      "charset":"utf-8",
+      "title":["underpost.net","underpost.net"],
+      "date":"2021-06-06",
+      "main_path":"home",
+      "main_css":"simple.css",
+      "priority": 1,
+      "changefreq": "weekly",
+      "url":"/",
+      "back_url":"/back",
+      "h1":[["underpost.net","underpost.net"]],
+      "h2":[["underpost.net","underpost.net"]],
+      "description":[
+        "underpost.net",
+        "underpost.net"
+      ],
+      "image":"/img/underpost-social.jpg",
+      "underpost": [
+        "util.js",
+        "vanilla.js",
+        "websocket.js"
+      ],
+      "lib":[],
+      "mainModules":[
+        "notifiValidator",
+        "cardGame/contentPlayGrid",
+        "cardGame/contentPlayGrid/cards"
+      ],
+      "backModules":[]
+    }
+  ]
+}
