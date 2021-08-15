@@ -1,5 +1,6 @@
 {
   "http_port": null,
+  "ws_port": null,
   "dir":"ltr",
   "underpostClientPath": null,
   "underpostServerPath": null,
@@ -13,27 +14,15 @@
   "static":["fonts","img"],
   "favicon":{"url":"/img/favicon.ico","type":"image/x-icon"},
   "fonts":[{"name":"retro-font","url":"/fonts/PressStart2P.ttf", "type":"truetype"}],
-  "secret_session":"underpost-network-session",
+  "secret_session": null,
   "network_user": {
     "username": null,
     "email": null,
     "web": null,
-    "bio": "underpost.net user",
-    "ip": null
+    "bio": "underpost.net user"
   },
-  "keys": {
-    "key_pass": null,
-    "current_key": null
-  },
-  "db":{
-    "username":null,
-    "password":null,
-    "host":null,
-    "port":null,
-    "database":null,
-    "key":null,
-    "iv":null
-  },
+  "asymmetrickeys": [],
+  "symmetricKeys": [],
   "path":[
     {
       "charset":"utf-8",
