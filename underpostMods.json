@@ -8,6 +8,7 @@
   ],
   "client": [
     "eval/baseRender.js",
-    "eval/JsCssModRender.js"
+    "eval/JsCssModRender.js",
+    "eval/initLoaderRender.js"
   ]
 }
