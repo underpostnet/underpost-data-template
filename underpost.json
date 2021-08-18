@@ -1,4 +1,5 @@
 {
+  "reset": true,
   "http_port": null,
   "ws_port": null,
   "dir":"ltr",
