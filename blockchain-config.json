@@ -1,0 +1,8 @@
+{
+  "constructor": {
+    "generation":"0",
+    "userConfig": {
+      "bridgeUrl": "http://localhost:3001/koyn"
+    }
+  }
+}
