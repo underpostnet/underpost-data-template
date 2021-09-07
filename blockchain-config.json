@@ -9,7 +9,7 @@
     "wsBridgeServer": {
       "ssl":false,
       "ws_host":"localhost",
-      "ws_port":3004,
+      "ws_port":3004
     }
   }
 }
