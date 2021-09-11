@@ -21,7 +21,9 @@
     "email": null,
     "web": null,
     "bio": "underpost.net user",
-    "ip": null
+    "ip": null,
+    "active_asymmetric_public_key": null,
+    "active_symmetric_public_key": null
   },
   "asymmetricKeys": [],
   "symmetricKeys": [],
