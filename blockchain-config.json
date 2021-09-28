@@ -11,5 +11,8 @@
       "ws_host":"localhost",
       "ws_port":3004
     }
+  },
+  "keys": {
+    "publicLen": 364
   }
 }
