@@ -10,6 +10,44 @@
       "ssl":false,
       "ws_host":"localhost",
       "ws_port":3004
+    },
+    "transactionTemplate": {
+       "data":{
+          "sender":{
+             "data":{
+                "generation":null,
+                "lastUpdate":null,
+                "username":null,
+                "email":null,
+                "web":null,
+                "bio":null,
+                "ip":null,
+                "base64PublicKey":null
+             },
+             "sign":null
+          },
+          "receiver":{
+             "data":{
+                "generation":null,
+                "lastUpdate":null,
+                "username":null,
+                "email":null,
+                "web":null,
+                "bio":null,
+                "ip":null,
+                "base64PublicKey":null
+             },
+             "sign":null
+          },
+          "amount":{
+             "totalValue":null,
+             "hashs":[
+
+             ]
+          },
+          "createdDate":null
+       },
+       "sign":null
     }
   },
   "keys": {
