@@ -1,5 +1,6 @@
 {
   "server": [
+    "eval/require.js",
     "eval/console.js",
     "eval/base.js",
     "eval/session.js",
