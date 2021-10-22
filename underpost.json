@@ -9,6 +9,8 @@
   "clientPath": null,
   "staticPath": null,
   "dataPath": null,
+  "interval_check_ip": 300000,
+  "delayInitStatusError": 20000,
   "url":"https://underpost.net",
   "http_host_dev":"localhost",
   "color":"black",
