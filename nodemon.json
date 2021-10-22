@@ -4,5 +4,5 @@
   ],
   "ext": "js,css",
   "delay": "0",
-  "ignore": [ ]
+  "ignore": [ "./temp" ]
 }
