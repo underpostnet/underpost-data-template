@@ -4,11 +4,11 @@
     "eval/base.js",
     "eval/session.js",
     "eval/header.js",
-    "eval/JsCssModRender.js"
+    "eval/JsCssModRender0.js"
   ],
   "client": [
     "eval/baseRender.js",
-    "eval/JsCssModRender.js",
-    "eval/initLoaderRender.js"
+    "eval/JsCssModRender0.js",
+    "eval/initLoaderRender0.js"
   ]
 }

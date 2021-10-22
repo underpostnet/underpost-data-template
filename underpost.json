@@ -52,9 +52,18 @@
       ],
       "lib":[],
       "mainModules":[
-        "notifiValidator",
-        "cardGame/contentPlayGrid",
-        "cardGame/contentPlayGrid/cards"
+        {
+          "type": "global",
+          "name": "testglobal"
+        },
+        {
+          "type": "back",
+          "name": "testback"
+        },
+        {
+          "type": "main",
+          "name": "testmain"
+        }
       ],
       "backModules":[]
     }
