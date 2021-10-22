@@ -51,7 +51,7 @@
         "websocket.js"
       ],
       "lib":[],
-      "mainModules":[
+      "modules":[
         {
           "type": "global",
           "name": "testglobal"
@@ -64,8 +64,7 @@
           "type": "main",
           "name": "testmain"
         }
-      ],
-      "backModules":[]
+      ]
     }
   ]
 }
