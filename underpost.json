@@ -34,8 +34,9 @@
       "charset":"utf-8",
       "title":["underpost.net","underpost.net"],
       "date":"2021-06-06",
-      "main_path":"home",
+      "client_core":"underpost.net.js",
       "main_css":"simple.css",
+      "sitemap_visible": false,
       "priority": 1,
       "changefreq": "weekly",
       "url":"/",
@@ -65,6 +66,37 @@
         {
           "type": "main",
           "name": "testmain"
+        }
+      ]
+    },
+    {
+      "charset":"utf-8",
+      "title":["Error","Error"],
+      "date":"2021-06-06",
+      "client_core":"underpost.net.js",
+      "main_css":"simple.css",
+      "sitemap_visible": true,
+      "priority": 1,
+      "changefreq": "weekly",
+      "url":"/error/:error_id",
+      "back_url":"/back-error",
+      "h1":[["Error","Error"]],
+      "h2":[["Error","Error"]],
+      "description":[
+        "Error",
+        "Error"
+      ],
+      "image":"/img/underpost-social.jpg",
+      "underpost": [
+        "util.js",
+        "vanilla.js",
+        "websocket.js"
+      ],
+      "lib":[],
+      "modules": [
+        {
+          "name":"error",
+          "type":"global"
         }
       ]
     }
