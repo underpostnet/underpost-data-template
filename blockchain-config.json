@@ -1,6 +1,7 @@
 {
   "constructor": {
     "generation":"0",
+    "pathPreviousHashGeneration": null,
     "userConfig": {
       "bridgeUrl": "http://localhost:3001/koyn"
     }
