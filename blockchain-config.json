@@ -15,7 +15,6 @@
        "data":{
           "sender":{
              "data":{
-                "generation":null,
                 "lastUpdate":null,
                 "username":null,
                 "email":null,
@@ -28,7 +27,6 @@
           },
           "receiver":{
              "data":{
-                "generation":null,
                 "lastUpdate":null,
                 "username":null,
                 "email":null,
