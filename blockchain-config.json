@@ -16,34 +16,32 @@
        "data":{
           "sender":{
              "data":{
-                "lastUpdate":null,
+                "http_port": null,
+                "ws_port": null,
                 "username":null,
                 "email":null,
                 "web":null,
-                "bio":null,
                 "ip":null,
-                "base64PublicKey":null
+                "base64PublicKey":null,
+                "B64PUKSHA256": null
              },
              "sign":null
           },
           "receiver":{
              "data":{
-                "lastUpdate":null,
+                "http_port": null,
+                "ws_port": null,
                 "username":null,
                 "email":null,
                 "web":null,
-                "bio":null,
                 "ip":null,
-                "base64PublicKey":null
+                "base64PublicKey":null,
+                "B64PUKSHA256": null
              },
              "sign":null
           },
-          "amount":{
-             "totalValue":null,
-             "hashs":[
-
-             ]
-          },
+          "amount": null,
+          "subject": null,
           "createdDate":null
        },
        "sign":null
