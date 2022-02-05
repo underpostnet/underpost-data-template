@@ -1,7 +1,5 @@
 {
   "reset": true,
-  "http_port": null,
-  "ws_port": null,
   "dir":"ltr",
   "underpostClientPath": null,
   "underpostServerPath": null,
@@ -18,11 +16,18 @@
   "favicon":{"url":"/img/favicon.ico","type":"image/x-icon"},
   "fonts":[{"name":"retro-font","url":"/fonts/PressStart2P.ttf", "type":"truetype"}],
   "secret_session": null,
-  "network_user": {
-    "username": null,
-    "email": null,
-    "web": null,
-    "ip": null
+  "network": {
+    "user": {
+      "username": null,
+      "state": null,
+      "msg": null
+    },
+    "node": {
+      "ip": null,
+      "serverName": null,
+      "http_port": null,
+      "ws_port": null
+    }
   },
   "asymmetricKeys": [],
   "symmetricKeys": [],

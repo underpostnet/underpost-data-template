@@ -16,12 +16,6 @@
        "data":{
           "sender":{
              "data":{
-                "http_port": null,
-                "ws_port": null,
-                "username":null,
-                "email":null,
-                "web":null,
-                "ip":null,
                 "base64PublicKey":null,
                 "B64PUKSHA256": null
              },
@@ -29,12 +23,6 @@
           },
           "receiver":{
              "data":{
-                "http_port": null,
-                "ws_port": null,
-                "username":null,
-                "email":null,
-                "web":null,
-                "ip":null,
                 "base64PublicKey":null,
                 "B64PUKSHA256": null
              },
@@ -46,8 +34,5 @@
        },
        "sign":null
     }
-  },
-  "keys": {
-    "publicLen": 364
   }
 }
