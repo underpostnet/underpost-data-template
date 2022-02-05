@@ -17,14 +17,16 @@
           "sender":{
              "data":{
                 "base64PublicKey":null,
-                "B64PUKSHA256": null
+                "B64PUKSHA256": null,
+                "timestamp": null
              },
              "sign":null
           },
           "receiver":{
              "data":{
                 "base64PublicKey":null,
-                "B64PUKSHA256": null
+                "B64PUKSHA256": null,
+                "timestamp": null
              },
              "sign":null
           },

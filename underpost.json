@@ -31,6 +31,7 @@
   },
   "asymmetricKeys": [],
   "symmetricKeys": [],
+  "symmetricAlgorithm": "aes-256-ctr",
   "active_asymmetric_public_key": null,
   "active_symmetric_public_key": null,
   "path":[
