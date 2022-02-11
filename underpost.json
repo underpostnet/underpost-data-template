@@ -1,21 +1,5 @@
 {
   "reset": true,
-  "dir":"ltr",
-  "underpostClientPath": null,
-  "underpostServerPath": null,
-  "serverPath": null,
-  "clientPath": null,
-  "staticPath": null,
-  "dataPath": null,
-  "interval_check_ip": 300000,
-  "delayInitStatusError": 20000,
-  "url":"https://underpost.net",
-  "http_host_dev":"localhost",
-  "color":"black",
-  "static":["fonts","img"],
-  "favicon":{"url":"/img/favicon.ico","type":"image/x-icon"},
-  "fonts":[{"name":"retro-font","url":"/fonts/PressStart2P.ttf", "type":"truetype"}],
-  "secret_session": null,
   "network": {
     "user": {
       "username": null,
@@ -33,77 +17,5 @@
   "symmetricKeys": [],
   "symmetricAlgorithm": "aes-256-ctr",
   "active_asymmetric_public_key": null,
-  "active_symmetric_public_key": null,
-  "path":[
-    {
-      "charset":"utf-8",
-      "title":["underpost.net","underpost.net"],
-      "date":"2021-06-06",
-      "client_core":"underpost.net.js",
-      "main_css":"simple.css",
-      "sitemap_visible": true,
-      "priority": 1,
-      "changefreq": "weekly",
-      "url":"/",
-      "back_url":"/back",
-      "h1":[["underpost.net","underpost.net"]],
-      "h2":[["underpost.net","underpost.net"]],
-      "description":[
-        "underpost.net",
-        "underpost.net"
-      ],
-      "image":"/img/underpost-social.jpg",
-      "underpost": [
-        "util.js",
-        "vanilla.js",
-        "websocket.js"
-      ],
-      "lib":[],
-      "modules":[
-        {
-          "type": "global",
-          "name": "testglobal"
-        },
-        {
-          "type": "back",
-          "name": "testback"
-        },
-        {
-          "type": "main",
-          "name": "testmain"
-        }
-      ]
-    },
-    {
-      "charset":"utf-8",
-      "title":["Error","Error"],
-      "date":"2021-06-06",
-      "client_core":"underpost.net.js",
-      "main_css":"simple.css",
-      "sitemap_visible": false,
-      "priority": 1,
-      "changefreq": "weekly",
-      "url":"/error/:error_id",
-      "back_url":"/back-error",
-      "h1":[["Error","Error"]],
-      "h2":[["Error","Error"]],
-      "description":[
-        "Error",
-        "Error"
-      ],
-      "image":"/img/underpost-social.jpg",
-      "underpost": [
-        "util.js",
-        "vanilla.js",
-        "websocket.js"
-      ],
-      "lib":[],
-      "modules": [
-        {
-          "name":"error",
-          "type":"global"
-        }
-      ]
-    }
-  ]
+  "active_symmetric_public_key": null
 }
