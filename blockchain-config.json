@@ -1,40 +1,114 @@
 {
-  "constructor": {
-    "generation":"0",
-    "seed": null,
-    "userConfig": {
-      "bridgeUrl": "http://localhost:3001/koyn"
-    }
-  },
-  "network": {
-    "wsBridgeServer": {
-      "ssl":false,
-      "ws_host":"localhost",
-      "ws_port":3004
-    },
-    "transactionTemplate": {
-       "data":{
-          "sender":{
-             "data":{
-                "base64PublicKey":null,
-                "B64PUKSHA256": null,
-                "timestamp": null
-             },
-             "sign":null
-          },
-          "receiver":{
-             "data":{
-                "base64PublicKey":null,
-                "B64PUKSHA256": null,
-                "timestamp": null
-             },
-             "sign":null
-          },
-          "amount": null,
-          "subject": null,
-          "createdDate":null
-       },
-       "sign":null
-    }
-  }
+   "constructor":{
+      "generation":"0",
+      "seed":null,
+      "limitMbBlock":20,
+      "userConfig":{
+         "bridgeUrl":"http://localhost:3001/koyn"
+      }
+   },
+   "network":{
+      "wsBridgeServer":{
+         "ssl":false,
+         "ws_host":"localhost",
+         "ws_port":3004
+      },
+      "structs":{
+         "transactionTemplate":{
+            "$id":"transaction",
+            "type":"object",
+            "properties":{
+               "data":{
+                  "$ref":"dataTransaction"
+               },
+               "sign":{
+                  "type":"string"
+               }
+            },
+            "required":[
+               "data",
+               "sign"
+            ],
+            "additionalProperties":false
+         },
+         "templateDataTransaction":{
+            "$id":"dataTransaction",
+            "type":"object",
+            "properties":{
+               "sender":{
+                  "$ref":"transactionUser"
+               },
+               "receiver":{
+                  "$ref":"transactionUser"
+               },
+               "amount":{
+                  "type":"number"
+               },
+               "subject":{
+                  "type":"string"
+               },
+               "createdDate":{
+                  "type":"number"
+               }
+            },
+            "required":[
+               "sender",
+               "receiver",
+               "amount",
+               "subject",
+               "createdDate"
+            ],
+            "additionalProperties":false
+         },
+         "templateTransactionUser":{
+            "$id":"transactionUser",
+            "type":"object",
+            "properties":{
+               "data":{
+                  "$ref":"publicKeySign"
+               },
+               "sign":{
+                  "type":"string"
+               }
+            },
+            "required":[
+               "data",
+               "sign"
+            ],
+            "additionalProperties":false
+         },
+         "templatePublicKeySign":{
+            "$id":"publicKeySign",
+            "type":"object",
+            "properties":{
+               "base64PublicKey":{
+                  "type":"string"
+               },
+               "B64PUKSHA256":{
+                  "type":"string"
+               },
+               "timestamp":{
+                  "type":"number"
+               }
+            },
+            "required":[
+               "base64PublicKey",
+               "B64PUKSHA256",
+               "timestamp"
+            ],
+            "additionalProperties":false
+         },
+         "blockTemplate":{
+            "$id":"block",
+            "type":"object",
+            "properties":{
+
+            },
+            "required":[
+
+            ],
+            "additionalProperties":false
+         }
+      }
+   }
 }
