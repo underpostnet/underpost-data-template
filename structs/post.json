@@ -1,0 +1,30 @@
+{
+   "$id":"post",
+   "type":"object",
+   "properties":{
+      "title":{
+         "type":"string"
+      },
+      "date":{
+         "type":"string",
+         "format":"date-ISO8601"
+      },
+      "B64HTMLdisplay":{
+         "type":"string"
+      },
+      "B64HTMLeditble":{
+         "type":"string"
+      },
+      "id":{
+         "type":"string"
+      }
+   },
+   "required":[
+      "title",
+      "date",
+      "B64HTMLdisplay",
+      "B64HTMLeditble",
+      "id"
+   ],
+   "additionalProperties":false
+}
