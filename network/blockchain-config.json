@@ -98,14 +98,165 @@
             ],
             "additionalProperties":false
          },
+         "blockMetaDataTemplate":{
+            "$id":"blockMetaData",
+            "type":"object",
+            "properties":{
+               "index":{
+                  "type":"number"
+               },
+               "previousHash":{
+                  "type":"string"
+               },
+               "reward":{
+                  "type":"number"
+               },
+               "difficulty":{
+                  "$ref":"difficulty"
+               },
+               "date":{
+                  "type":"number"
+               },
+               "version":{
+                  "type":"string"
+               },
+               "generation":{
+                  "type":"string"
+               },
+               "seed":{
+                  "type": ["string", "null", "number", "boolean"]
+               }
+            },
+            "required":[
+               "index",
+               "previousHash",
+               "reward",
+               "difficulty",
+               "date",
+               "version",
+               "generation",
+               "seed"
+            ],
+            "additionalProperties":false
+         },
+         "difficultyTemplate":{
+            "$id":"difficulty",
+            "type":"object",
+            "properties":{
+               "zeros":{
+                  "type":"string"
+               },
+               "targetHash":{
+                  "type":"string"
+               },
+               "difficulty":{
+                  "type":"number"
+               }
+            },
+            "required":[
+               "zeros",
+               "targetHash",
+               "difficulty"
+            ],
+            "additionalProperties":false
+         },
          "blockTemplate":{
             "$id":"block",
             "type":"object",
             "properties":{
-
+               "node":{
+                  "$ref":"node"
+               },
+               "block":{
+                  "$ref":"blockMetaData"
+               },
+               "hash":{
+                  "type":"string"
+               },
+               "nonce":{
+                  "type":"number"
+               }
             },
             "required":[
-
+               "node",
+               "block",
+               "hash",
+               "nonce"
+            ],
+            "additionalProperties":false
+         },
+         "nodeTemplate":{
+            "$id":"node",
+            "type":"object",
+            "properties":{
+               "dataTransaction":{
+                  "type":"array",
+                  "items":{
+                     "$ref":"transaction"
+                  }
+               },
+               "dataApp":{
+                  "type":"array",
+                  "items":{
+                     "$ref":"dataApp"
+                  }
+               },
+               "rewardAddress":{
+                  "type":"string"
+               }
+            },
+            "required":[
+               "dataTransaction",
+               "dataApp",
+               "rewardAddress"
+            ],
+            "additionalProperties":false
+         },
+         "dataAppTemplate":{
+            "$id":"dataApp",
+            "type":"object",
+            "properties":{
+               "path":{
+                  "type":"string"
+               },
+               "data":{
+                  "$ref":"timeFlowObjs"
+               },
+               "sign":{
+                  "type":"string"
+               }
+            },
+            "required":[
+               "path",
+               "data",
+               "sign"
+            ],
+            "additionalProperties":false
+         },
+         "timeFlowObjsTemplate":{
+            "$id":"timeFlowObjs",
+            "type":"object",
+            "properties":{
+               "emit":{
+                  "type":"array",
+                  "items":{
+                     "type":"object"
+                  }
+               },
+               "transactions":{
+                  "type":"array",
+                  "items":{
+                     "type":"object"
+                  }
+               },
+               "timestamp":{
+                  "type":"number"
+               }
+            },
+            "required":[
+               "emit",
+               "transactions",
+               "timestamp"
             ],
             "additionalProperties":false
          }
