@@ -124,7 +124,7 @@
                   "type":"string"
                },
                "seed":{
-                  "type": ["string", "null", "number", "boolean"]
+                  "type": ["object", "string", "null", "number", "boolean"]
                }
             },
             "required":[
