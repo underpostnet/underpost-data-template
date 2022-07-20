@@ -4,13 +4,13 @@
       "seed":null,
       "limitMbBlock":20,
       "userConfig":{
-         "bridgeUrl":"http://localhost:3001/koyn"
+         "bridgeUrl":"https://www.cyberiaonline.com/koyn"
       }
    },
    "network":{
       "wsBridgeServer":{
-         "ssl":false,
-         "ws_host":"localhost",
+         "ssl":true,
+         "ws_host":"www.cyberiaonline.com/ws-koyn",
          "ws_port":3004
       },
       "structs":{
