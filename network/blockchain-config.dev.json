@@ -83,6 +83,9 @@
             "$id":"publicKeySign",
             "type":"object",
             "properties":{
+               "AUTH_TOKEN": {
+                  "type":"string"
+               },
                "base64PublicKey":{
                   "type":"string"
                },
