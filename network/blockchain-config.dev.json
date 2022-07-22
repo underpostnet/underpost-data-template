@@ -1,18 +1,18 @@
 {
    "constructor":{
-      "dev":false,
-      "pathsDataApps": ["www.cyberiaonline.com"],
+      "dev":true,
+      "pathsDataApps": ["localhost:3001"],
       "generation":"0",
       "seed":null,
       "limitMbBlock":20,
       "userConfig":{
-         "bridgeUrl":"https://www.cyberiaonline.com/koyn"
+         "bridgeUrl":"http://localhost:3001/koyn"
       }
    },
    "network":{
       "wsBridgeServer":{
-         "ssl":true,
-         "ws_host":"www.cyberiaonline.com/ws-koyn",
+         "ssl":false,
+         "ws_host":"localhost",
          "ws_port":3004
       },
       "structs":{
